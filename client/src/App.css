@@ -1,0 +1,329 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Comfortaa:wght@300&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+
+
+
+
+.nav-item {
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.navbar{
+  background-color: rgba(213, 245, 255, 0.232);
+  
+}
+
+.navbar-collapse{
+  padding-left: 10px;
+}
+
+
+
+
+
+/* login & signup css */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(253, 254, 255) 41%, rgb(164, 241, 242) 92%);
+  font-size: 12px;
+}
+
+body, button, input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.background {
+  display: flex;
+  min-height: 50vh;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: #ffffff;
+  border-radius: 15px;
+  margin-top: 15%;
+}
+
+.signedup{
+color: #7d0000 ;
+}
+
+/* //fontstyle */
+
+.display-5{
+  font-family: 'Monoton', cursive;
+}
+
+.font1{
+  font-family: 'Audiowide', cursive;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+.lead{
+  font-family: 'Comfortaa', cursive;
+}
+
+.profile-head{
+  font-family: 'Comfortaa', cursive;
+}
+
+.profile-edit-btn{
+  font-family: 'Comfortaa', cursive;
+}
+
+.row{
+  font-family: 'Comfortaa', cursive;
+}
+
+.signup-image figure{
+  display: flex;
+  height: 200px;
+  width: 220px;
+ 
+}
+.signin-image figure{
+  display: flex;
+  height: 200px;
+  width: 220px;
+  margin-top: 50px;
+}
+
+.signup-img-link{
+  background: none;
+  border: none;
+  color: #005469;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: dashed;
+}
+
+.signup-img-link:hover {
+  color: #9dd4e1;
+}
+
+.signin-img-link{
+  background: none;
+  border: none;
+  color: #005469;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: dashed;
+}
+
+.signin-img-link:hover {
+  color: #9dd4e1;
+}
+
+.zmdi {
+  color: #005469;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  /* background: #4d4d4f; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-body {
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 40px;
+  
+ 
+}
+
+.screen-body-item1 {
+  flex: 1;
+  padding: 50px;
+  
+ 
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #105b6b;
+  font-size: 26px;
+}
+
+.app-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 25px;
+  height: 4px;
+  background: #9fd2dd;
+}
+
+.app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.app-form-group {
+  padding-bottom: 10px;
+  color: rgb(36, 79, 91);
+  margin:auto;
+}
+
+.app-form-group1 {
+  
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  margin-top: 40px;
+  
+}
+
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+
+.app-form-control::placeholder {
+  color: #a1c0c8;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #065c64;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #044a69;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: #a87e7e;
+}
+
+.credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #002941;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.credits-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dribbble {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+  
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .app-title {
+    flex-direction: row;
+  }
+
+  .app-title span {
+    margin-right: 12px;
+  }
+
+  .app-title:after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}
+
