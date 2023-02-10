@@ -10,6 +10,9 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
+function createData(id, name, dob, email) {
+  return { id, name, dob, email };
+}
 
 
 const BasicTable = () => { 
@@ -19,10 +22,7 @@ const BasicTable = () => {
     const navigate = useNavigate();
     const [userData, setUserData] = useState({});
 
-    function createData(id, name, dob, email) {
-      return { id, name, dob, email };
-    }
-    
+  
       
     
     const rows = [
@@ -30,7 +30,7 @@ const BasicTable = () => {
       createData(2,userData.name , userData.dob, userData.email),
       createData(3,userData.name , userData.dob, userData.email),
       createData(4,userData.name , userData.dob, userData.email),
-
+      createData(1,"name" , "01/01/23", "email"),
       createData(5,userData.name , userData.dob, userData.email),
       createData(6,userData.name , userData.dob, userData.email),
     ];
